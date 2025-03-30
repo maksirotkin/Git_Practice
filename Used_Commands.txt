@@ -5,7 +5,7 @@ git clone
 cd Git_Practice
 git remote -v
 echo "What is love" >> song.txt
- git status
+git status
 git add .
 git commit -m
 git push
@@ -18,7 +18,7 @@ gitk&
 git commit --amend -m "Add arrows.txt feature"
 git log
 git merge feature
- git tag session1
+git tag session1
 git stash -m "Used_Commands stash 1"
 git rebase main
 git stash list
