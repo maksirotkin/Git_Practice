@@ -1,3 +1,6 @@
+The list of commands I used in my practice
+
+
 git clone
 cd Git_Practice
 git remote -v
@@ -20,3 +23,11 @@ git stash -m "Used_Commands stash 1"
 git rebase main
 git stash list
 git stash pop
+git push --tags
+git remote remove origin
+git remote add origin git@github.com:maksirotkin/Git_Practice_Copy.git
+git pull --rebase origin main
+git rebase --skip
+git push --set-upstream origin main
+git push
+git remote set-url origin https://github.com/maksirotkin/Git_Practice.git
